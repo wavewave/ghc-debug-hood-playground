@@ -1,0 +1,3 @@
+[submodule "ghc-debug"]
+	path = ghc-debug
+	url = https://gitlab.haskell.org/wavewave/ghc-debug.git
