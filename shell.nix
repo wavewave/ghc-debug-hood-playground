@@ -9,11 +9,8 @@ let
     };
   };
 
-  hsenv = haskellPackagesOverlayed.ghcWithPackages (p:
-    with p;
-    [
-      cabal-install
-    ]);
+  hsenv =
+    haskellPackagesOverlayed.ghcWithPackages (p: with p; [ cabal-install ]);
 
 in mkShell {
   buildInputs = [ graphviz hsenv ];
