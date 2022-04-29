@@ -1,3 +1,6 @@
 [submodule "ghc-debug"]
 	path = ghc-debug
 	url = https://gitlab.haskell.org/wavewave/ghc-debug.git
+[submodule "monoidal-containers"]
+	path = monoidal-containers
+	url = https://github.com/wavewave/monoidal-containers.git
