@@ -4,3 +4,6 @@
 [submodule "monoidal-containers"]
 	path = monoidal-containers
 	url = https://github.com/wavewave/monoidal-containers.git
+[submodule "hood"]
+	path = hood
+	url = https://github.com/wavewave/hood.git
